@@ -9,5 +9,5 @@ The Patents Unsupervised Learning repository located here (https://github.com/to
 
 Visualizing AI Patents and their relationships is a data mining project I did where I analyzed an AI patent metadata dataset that was created by the U.S. Patent and Trademark office.  https://www.youtube.com/watch?v=sUJAo1yywqA  
 
-PatentClaw is a project using OpenClaw, the HP ZGX Nano AI Station, and other technologies to create an Agentic AI solution for patent professionals.  https://github.com/tomplunkett/PatentClaw/
+PatentClaw is a project (https://youtu.be/R8FDKz2F284) using OpenClaw, the HP ZGX Nano AI Station, and other technologies to create an Agentic AI solution for patent professionals.  https://github.com/tomplunkett/PatentClaw/
 
