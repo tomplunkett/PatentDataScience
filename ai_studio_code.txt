@@ -1,0 +1,27 @@
+flowchart LR
+    %% Defining Styles for a black & white patent look
+    classDef default fill:#fff,stroke:#000,stroke-width:2px,color:#000;
+    classDef invisible fill:none,stroke:none,color:#000;
+
+    subgraph Phone1 [User Device 110]
+        direction TB
+        App[⚙️ Intermediary App / API]
+        SearchBox["Search Bar: 'Dog'"]
+    end
+
+    subgraph ServerSystem [ ]
+        direction TB
+        SE[Search Engine 120]
+        DB[(Image Index 130)]
+        SE --- DB
+    end
+    class ServerSystem invisible
+
+    subgraph Phone2 [User Device 110]
+        direction TB
+        Grid["🖼️ 🖼️<br>🖼️ 🖼️<br>🖼️ 🖼️<br>(Thumbnail Grid)"]
+    end
+
+    %% Connections
+    Phone1 -- "Textual Search Query" --> SE
+    SE -- "Image Search Results" --> Phone2
